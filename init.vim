@@ -31,3 +31,5 @@ let g:syntastic_javascript_checkers = ['eslint']
 " use local eslint installation
 let g:syntastic_javascript_eslint_exec = '`npm bin`/eslint'
 
+" configure golang plugin
+let g:go_fmt_command = "goimports"
