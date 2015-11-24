@@ -17,9 +17,14 @@ Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
 " setup eslint for javascript
 Plug 'scrooloose/syntastic'
+" install custom theme
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 syntax on
+
+" active custom theme
+colorscheme gruvbox
 
 " configure syntastic plugin
 let g:syntastic_javascript_checkers = ['eslint']
