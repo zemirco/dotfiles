@@ -8,3 +8,7 @@
 ## neovim
 
 On OS X place `init.vim` at `~/.config/nvim/`.
+
+## `.bash_profile`
+
+On OS X place at `~/`.
