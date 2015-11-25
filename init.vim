@@ -1,4 +1,5 @@
 
+" file type based indentation
 filetype plugin indent on
 
 " .html settings
