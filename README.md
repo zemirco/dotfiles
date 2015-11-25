@@ -7,4 +7,4 @@
 
 ## neovim
 
-On OS X place `ìnit.vim` at `~/.config/nvim/`.
+On OS X place `init.vim` at `~/.config/nvim/`.
