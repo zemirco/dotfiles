@@ -4,6 +4,7 @@ filetype plugin indent on
 " .html settings
 " shiftwidth affects automatic indentation
 " insert two spaces for every tab
+" expandtab causes tab to use spaces
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab
 
 " search upper- and lowercase
