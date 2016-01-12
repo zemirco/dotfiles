@@ -11,6 +11,18 @@ On OS X place `init.vim` at `~/.config/nvim/`.
 
 For `nginx` syntax highlighting copy files from https://github.com/nginx/nginx/tree/master/contrib to `~/.config/nvim`.
 
+##### vim
+
+Create `.vim` directory at `~/` to hold plugin manager and all installed plugins.
+
+Create symlink from `.vimrc` to `~/.vimrc`.
+
+```bash
+ln -s /home/zeiss/dev/dotfiles/.vimrc /home/zeiss/.vimrc
+```
+
+- add colors https://github.com/morhetz/gruvbox/wiki/Terminal-specific#a-256-color-gruvbox-palette-shellscript
+
 ##### `.bash_profile`
 
 On OS X place at `~/`.
