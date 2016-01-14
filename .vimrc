@@ -2,6 +2,12 @@
 " file type based indentation
 filetype plugin indent on
 
+" .html filetype settings
+" shiftwidth: number of spaces to use for (auto)indent step
+" tabstop:    number of spaces that <Tab> in file uses
+" expandtab:  use spaces when <Tab> is inserted
+autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab
+
 " search upper- and lowercase
 set ignorecase
 
