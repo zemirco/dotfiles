@@ -5,11 +5,6 @@
 
 `.tmux.conf` is only required on OS X. On Linux use `tmux -2`.
 
-##### neovim
-
-On OS X place `init.vim` at `~/.config/nvim/`.
-
-For `nginx` syntax highlighting copy files from https://github.com/nginx/nginx/tree/master/contrib to `~/.config/nvim`.
 
 ##### vim
 
@@ -22,6 +17,7 @@ ln -s /home/zeiss/dev/dotfiles/.vimrc /home/zeiss/.vimrc
 ```
 
 - add colors https://github.com/morhetz/gruvbox/wiki/Terminal-specific#a-256-color-gruvbox-palette-shellscript
+- for `nginx` syntax highlighting copy files from https://github.com/nginx/nginx/tree/master/contrib to `~/.vim/`.
 
 ##### `.bash_profile`
 
