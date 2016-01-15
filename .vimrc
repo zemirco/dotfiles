@@ -6,7 +6,9 @@ filetype plugin indent on
 " shiftwidth: number of spaces to use for (auto)indent step
 " tabstop:    number of spaces that <Tab> in file uses
 " expandtab:  use spaces when <Tab> is inserted
-autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2
+" .yml filetype settings
+autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2
 
 " search upper- and lowercase
 set ignorecase
