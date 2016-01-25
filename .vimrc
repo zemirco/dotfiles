@@ -30,6 +30,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/syntastic'
 " install custom theme
 Plug 'morhetz/gruvbox'
+" install vim syntax highlighting
+Plug 'docker/docker', { 'rtp': '/contrib/syntax/vim/' }
 call plug#end()
 
 " active custom theme
