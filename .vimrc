@@ -9,6 +9,8 @@ filetype plugin indent on
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2
 " .yml filetype settings
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2
+" .js filetype settings
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab softtabstop=2
 
 " search upper- and lowercase
 set ignorecase
